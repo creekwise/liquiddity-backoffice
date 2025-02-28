@@ -1,0 +1,6 @@
+[LIQUIDDITY-CONN]
+host=localhost
+database=liquiddity
+schema=liquiddity_sch
+user=liquiddity_master
+label=LIQUIDDITY

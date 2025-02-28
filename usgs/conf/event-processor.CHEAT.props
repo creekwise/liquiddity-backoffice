@@ -1,0 +1,13 @@
+[DB-CONN]
+host=localhost
+database=liquiddity
+schema=liquiddity_sch
+user=liquiddity_master
+label=LIQUIDDITY
+
+[FLOW]
+gaugeId=03070260:00060
+stage.1.LOW-RUNNABLE.1=700
+stage.2.MEDIUM-RUNNABLE.1=1500
+stage.3.HIGH-RUNNABLE.1=3000
+stage.4.TOO-HIGH.0=5000

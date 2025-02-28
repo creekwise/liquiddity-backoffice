@@ -1,0 +1,22 @@
+https://api.sunrisesunset.io/json?lat=39.5258056&lng=-79.4107500&date=2024-9-30
+
+
+{
+	"results":
+	{
+		"date":"2024-09-30",
+		"sunrise":"6:13:25 AM",
+		"sunset":"6:04:40 PM",
+		"first_light":"4:43:53 AM",
+		"last_light":"7:34:12 PM",
+		"dawn":"5:46:37 AM",
+		"dusk":"6:31:28 PM",
+		"solar_noon":"12:09:02 PM",
+		"golden_hour":"5:29:03 PM",
+		"day_length":"11:51:14",
+		"timezone":"America/New_York",
+		"utc_offset":-300
+	},
+	"status":"OK"
+}
+

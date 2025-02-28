@@ -1,0 +1,16 @@
+
+inventory:  https://waterdata.usgs.gov/nwis/inventory
+
+
+03075500
+
+https://waterservices.usgs.gov/nwis/iv/?site=03070260
+
+https://waterservices.usgs.gov/nwis/iv/?site=02339430
+
+STATES:  https://www2.census.gov/geo/docs/reference/state.txt
+
+COUNTIES:  https://help.waterdata.usgs.gov/code/county_query?fmt=html
+
+
+https://waterservices.usgs.gov/nwis/iv/?site=01597500&parameterCd=00060

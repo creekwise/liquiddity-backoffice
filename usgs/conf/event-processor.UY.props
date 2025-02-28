@@ -1,0 +1,16 @@
+[DB-CONN]
+host=localhost
+database=liquiddity
+schema=liquiddity_sch
+user=liquiddity_master
+label=LIQUIDDITY
+
+[FLOW]
+gaugeId=03076100:00060
+stage.1.LOW-RUNNABLE.1=500
+stage.2.MEDIUM-RUNNABLE.1=650
+stage.3.HIGH-RUNNABLE.1=1200
+stage.4.TOO-HIGH.0=1800
+releaseDischarge=600
+releaseInflowMins=60
+releaseOutflowMins=60

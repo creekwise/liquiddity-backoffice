@@ -1,0 +1,11 @@
+[DB-CONN]
+host=localhost
+database=liquiddity
+schema=liquiddity_sch
+user=liquiddity_master
+label=LIQUIDDITY
+
+[FLOW]
+gaugeId=03070500:00060
+stage.1.RUNNABLE.1=300
+
