@@ -54,10 +54,7 @@ def importGauge(argConn, argGauge):
     print(gaugeDisplay)
     print("\t" + siteUrl)
 
-    response = requests.get(siteUrl)
-    respText = response.content.decode("utf-8");
 
-    respRoot = ET.fromstring(respText)
 
     lastCheckinVal = None
     lastUsgsTS = None
@@ -66,6 +63,10 @@ def importGauge(argConn, argGauge):
     numCheckins = 0
 
     try:
+
+        response = requests.get(siteUrl)
+        respText = response.content.decode("utf-8");
+        respRoot = ET.fromstring(respText)
 
         seriesElem = respRoot.find("{http://www.cuahsi.org/waterML/1.1/}timeSeries")
         valuesElem = seriesElem.find("{http://www.cuahsi.org/waterML/1.1/}values")
